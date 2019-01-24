@@ -8,7 +8,6 @@ function updatePlaylist(playlist,artistname,songtitle){
 }
 
 function removeFromPlaylist(playlist,artistname){
-  object.assign
   delete playlist.artistname;
   return playlist
 }
